@@ -59,16 +59,17 @@
 
 
 
-<script src='https://cdn-dev.securiti.xyz/consent/form-consent-sdk.js'></script>
-<script>window.addEventListener('load',
-FormConsentSDK.initialize({
-codeGenMetadata:{"formPropertyId":"5","formSelector":"[id*=\"loyal-form\"]","subjectIdentifiers":[{"name":"first-name","selector":"[name = \"first-name\"]","isPrimary":false},{"name":"last-name","selector":"[name = \"last-name\"]","isPrimary":false},{"name":"your-email","selector":"[name = \"your-email\"]","isPrimary":true}],"consentIdentifiers":[{"type":"checkbox","name":"my-gdpr1[]","selector":"[name = \"my-gdpr1[]\"]","propertyId":84498,"consentValue":"checked"}],"consentTrigger":{"action":"click","selector":"[type=\"submit\"]"}},
-url: 'https://dev.securiti.xyz/privaci/v1/',
-authToken:'c90b45d0-35d4-48df-be10-a99bacf14b9f',
-orgId:'1',
-onConsentSuccess: null,
-onConsentFailure: null
-})
+
+                                <script src='https://cdn-dev.securiti.xyz/consent/form-consent-sdk.js'></script>
+                                <script>window.addEventListener('load',
+    FormConsentSDK.initialize({
+        codeGenMetadata:{"formPropertyId":"5","formSelector":"[id*=\"loyal-form\"]","subjectIdentifiers":[{"name":"first-name","selector":"[name = \"first-name\"]","isPrimary":false},{"name":"last-name","selector":"[name = \"last-name\"]","isPrimary":false},{"name":"your-email","selector":"[name = \"your-email\"]","isPrimary":true}],"consentIdentifiers":[{"type":"checkbox","name":"my-gdpr1[]","selector":"[name = \"my-gdpr1[]\"]","propertyId":84498,"consentValue":"checked"}],"consentTrigger":{"action":"click","selector":"[type=\"submit\"]"}},
+        url: 'https://dev.securiti.xyz/privaci/v1/',
+        authToken:'c90b45d0-35d4-48df-be10-a99bacf14b9f',
+        orgId:'1',
+        onConsentSuccess: null,
+        onConsentFailure: null
+    })
 )</script>
 
 	
